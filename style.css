@@ -17,6 +17,15 @@ img {
     height: auto;
 }
 
+button {
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .header, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -42,15 +51,51 @@ img {
     align-items: center;
 }
 
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .header-links {
+    color: #F9FAF8;
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
 
+.header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main-sub {
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    flex: 0;
+}
+
+.button-signup {
+    color: #dddddd;
+    background: #3882F6;
+    border: 1px #3882F6;
+    padding: 8px 36px 8px 36px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .content {
     display: flex;
     flex: 1;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
