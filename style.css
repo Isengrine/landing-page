@@ -5,9 +5,58 @@
 
 body {
     font-family: Roboto-Regular;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 480px;
+    height: auto;
 }
 
 .header, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.header {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-low {
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
 }
