@@ -42,8 +42,9 @@ a {
     padding: 48px 0 48px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 36px;
 }
 
 .header-logo {
@@ -69,6 +70,7 @@ a {
 .header-img {
     width: 480px;
     height: auto;
+    margin: 36px;
 }
 
 .head-main {
@@ -99,13 +101,14 @@ a {
     display: flex;
     flex: 1;
     flex-direction: column;
-
     gap: 48px;
 }
 
 .cont-top {
     display: flex;
     flex-direction: column;
+    margin-bottom: 64px;
+    padding: 24px;
     gap: 36px;
 }
 
@@ -114,7 +117,8 @@ a {
     flex-direction: column;
     font-size: 36px;
     font-style: italic;
-    margin: 0 30% 0 30%;
+    margin: 24px 30% 24px 30%;
+    padding: 24px;
 }
 
 .quotee {
@@ -129,6 +133,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .item {
