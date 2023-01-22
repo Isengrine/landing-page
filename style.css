@@ -27,7 +27,7 @@ a {
 }
 
 .header {
-    padding: 12px;
+    padding: 24px;
     display: flex;
     flex-direction: column;
 }
@@ -35,7 +35,8 @@ a {
 .header-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 48px 0 48px;
 }
 
 .header-low {
@@ -58,19 +59,25 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 24px;
     gap: 24px;
 }
 
 .header-left {
     display: flex;
     flex-direction: column;
+    flex-basis: 480px;
     margin: 36px;
+}
+
+.header-right {
+    margin: 24px;
+    text-align: center;
 }
 
 .header-img {
     width: 480px;
     height: auto;
-    margin: 36px;
 }
 
 .head-main {
@@ -80,6 +87,7 @@ a {
 
 .head-sub {
     font-size: 18px;
+    padding-bottom: 12px;
 }
 
 .button-container {
